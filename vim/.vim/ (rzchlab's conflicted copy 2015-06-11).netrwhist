@@ -1,0 +1,10 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =8
+let g:netrw_dirhist_1='/home/jji/Dropbox/uw/rzch_research/bife/140505_B629_2_data_analysis'
+let g:netrw_dirhist_2='/home/jji'
+let g:netrw_dirhist_3='/home/jji/Dropbox'
+let g:netrw_dirhist_4='/home/jji/Dropbox/uw'
+let g:netrw_dirhist_5='/home/jji/Dropbox/uw/rzch_research'
+let g:netrw_dirhist_6='/home/jji/Dropbox/uw/rzch_research/bife'
+let g:netrw_dirhist_7='/home/jji/Dropbox/uw/rzch_research/bife/theory'
+let g:netrw_dirhist_8='/home/jji/Dropbox/uw/rzch_research/bife/theory/amr_vs_phi'
