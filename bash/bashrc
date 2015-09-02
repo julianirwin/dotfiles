@@ -124,3 +124,9 @@ fi
 # Aliases
 alias please='sudo'
 alias fucking='sudo'
+
+# Functions
+title () 
+{ 
+    echo -en "\033]0;$@\007"
+}
