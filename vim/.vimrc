@@ -187,6 +187,10 @@ function! NeatFoldText() "{{{2
 endfunction
 set foldtext=NeatFoldText()
 
+" stop the open bracket unfolds all folds below problem:
+autocmd InsertEnter * if !exists('w:last_fdm') | let w:last_fdm=&foldmethod | setlocal foldmethod=manual | endif
+autocmd InsertLeave,WinLeave * if exists('w:last_fdm') | let &l:foldmethod=w:last_fdm | unlet w:last_fdm | endif
+
 " GUI SETTINGS
 if has("gui_running")
   colorscheme distinguished
