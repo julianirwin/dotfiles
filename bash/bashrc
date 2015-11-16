@@ -124,6 +124,8 @@ fi
 # Aliases
 alias please='sudo'
 alias fucking='sudo'
+alias clipboard='xclip -sel clip'
+alias ls='ls -la'
 
 # Functions
 title () 
