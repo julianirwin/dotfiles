@@ -6,8 +6,7 @@ if [ -d /Users ]; then
 export PYTHONPATH=$PYTHONPATH:/Users/Julian/Documents/Dropbox/lib
 export PYTHONPATH=$PYTHONPATH:/Users/Julian/Projects
 export PATH="/Users/Julian/anaconda/bin:$PATH" #anaconda
-fi
-if [ -d /home ]; then
+else
 export PYTHONPATH=$PYTHONPATH:~/Dropbox/lib
 fi
 
@@ -48,8 +47,8 @@ shopt -s checkwinsize
 
 # If set, the pattern "**" used in a pathname expansion context will
 # match all files and zero or more directories and subdirectories.
-if [ -d /home ]; then
-shopt -s globstar
+if [ ! -d /Users ]; then
+  shopt -s globstar
 fi
 
 
@@ -125,10 +124,9 @@ fi
 alias please='sudo'
 alias fucking='sudo'
 alias ls='ls -la'
-if [ -d /home ]; then
+if [! -d /Users ]; then
   alias clipboard='xclip -sel clip'
-fi
-if [ -d /Users ]; then
+else
   alias clipboard='pbcopy'
 fi
 
