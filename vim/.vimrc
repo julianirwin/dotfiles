@@ -16,6 +16,8 @@ Plugin 'tpope/vim-fugitive.git'
 Plugin 'tpope/vim-git'
 Plugin 'scrooloose/syntastic'
 Plugin 'mileszs/ack.vim.git'
+Plugin 'godlygeek/tabular'
+Plugin 'plasticboy/vim-markdown'
 
 "movement/editing
 Plugin 'bkad/CamelCaseMotion'
@@ -162,6 +164,7 @@ set scrolloff=5            " Keep 5 lines above and below the cursor
 " SYNTAX HIGHLIGHTING
 syntax on  " Turn on syntax highlighting
 autocmd BufNewFile,BufReadPost *.md set filetype=markdown
+let g:vim_markdown_math=1 " Ignore latex regions in .md files
 
 
 " CODE FOLDING
