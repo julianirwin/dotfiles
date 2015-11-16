@@ -124,8 +124,13 @@ fi
 # Aliases
 alias please='sudo'
 alias fucking='sudo'
-alias clipboard='xclip -sel clip'
 alias ls='ls -la'
+if [ -d /home ]; then
+  alias clipboard='xclip -sel clip'
+fi
+if [ -d /Users ]; then
+  alias clipboard='pbcopy'
+fi
 
 # Functions
 title () 
