@@ -21,6 +21,7 @@ vim/.vim/bundle/vim-snipmate/
 vim/.vim/bundle/vim-surround/
 vim/.vim/bundle/vim-vinegar/
 vim/.vim/bundle/vim-vividchalk/
+vim/.vim/bundle/Vundle.vim
 vim/.vim/bundle/*
 .gitignore
 *.swp

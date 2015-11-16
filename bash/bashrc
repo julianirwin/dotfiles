@@ -124,7 +124,7 @@ fi
 alias please='sudo'
 alias fucking='sudo'
 alias ls='ls -la'
-if [! -d /Users ]; then
+if [ ! -d /Users ]; then
   alias clipboard='xclip -sel clip'
 else
   alias clipboard='pbcopy'
