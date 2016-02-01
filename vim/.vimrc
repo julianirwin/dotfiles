@@ -83,6 +83,7 @@ au FileType python setl shiftwidth=4 tabstop=4
 """ PANE ELEMENTS """
 set nu		" show line numbers
 set ruler	" show cursor line and column numbers
+set cc=80
 
 
 """ SEARCH SETTINGS """
