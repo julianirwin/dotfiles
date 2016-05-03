@@ -137,3 +137,8 @@ title ()
 }
 
 keychain
+
+# Run local rcs
+if [ -d /home/jji ]; then
+  source /home/jji/.bashrc_local 
+fi
