@@ -135,3 +135,10 @@ title ()
 { 
     echo -en "\033]0;$@\007"
 }
+
+keychain
+
+# Run local rcs
+if [ -d /home/jji ]; then
+  source /home/jji/.bashrc_local 
+fi

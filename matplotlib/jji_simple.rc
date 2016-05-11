@@ -239,7 +239,7 @@ axes.formatter.limits : -4, 4 # use scientific notation if log10
                                # http://en.wikipedia.org/wiki/Plus_and_minus_signs#Character_codes
 #axes.color_cycle    : b, r, g, c, m, y, k  # color cycle for plot lines
 # Cynthia Brewer Set 1
-axes.color_cycle : e41a1c, 377eb8, 4daf4a, ff7f00, a65628, f781bf, 999999, 984ea3, ffff33
+axes.color_cycle : e41a1c, 377eb8, ff7f00, a65628, f781bf, 999999, 984ea3, 4daf4a, 252525
 # Cynthia Brewer Set 2
 # axes.color_cycle : 66c2a5, fc8d62, 8da0cb, e78ac3, a6d854, ffd92f, e5c494, b3b3b3 
 # Dark Brewer Set 2
