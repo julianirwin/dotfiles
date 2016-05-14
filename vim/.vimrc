@@ -114,6 +114,7 @@ inoremap # X#
 map <leader>n :NERDTreeToggle<CR>
 imap <C-a> <Plug>snipMateNextOrTrigger
 smap <C-a> <Plug>snipMateNextOrTrigger
+let g:cpp_class_scope_highlight = 1
 
 """ tabs """
 nnoremap <C-m> gt
