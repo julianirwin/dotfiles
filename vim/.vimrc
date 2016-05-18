@@ -50,6 +50,9 @@ Plugin 'chrisbra/Colorizer'
 Plugin 'fs111/pydoc.vim'
 Plugin 'vim-scripts/pep8'
 
+"elm
+Plugin 'lambdatoast/elm.vim'
+
 "broken
 " Plugin 'ryanb/dotfiles/blob/master/vim/colors/railscasts.vim'
 " Plugin 'wincent/Command-T'
