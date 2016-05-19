@@ -82,6 +82,8 @@ set smartindent " automatically and intelligently add tabs to next line
 autocmd FileType sh,c,cpp,java,php,javascript setl cindent
 au FileType ruby,html,haml setl shiftwidth=2 tabstop=2
 au FileType python setl shiftwidth=4 tabstop=4
+autocmd FileType python setlocal commentstring=#\ %s
+
 
 """ PANE ELEMENTS """
 set nu		" show line numbers
