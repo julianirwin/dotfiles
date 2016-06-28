@@ -4,8 +4,6 @@
 # custom environment variable
 if [ -d /Users ]; then
 export PYTHONPATH=$PYTHONPATH:/Users/Julian/Documents/Dropbox/lib
-export PYTHONPATH=$PYTHONPATH:/Users/Julian/Projects
-export PATH="/Users/Julian/anaconda/bin:$PATH" #anaconda
 else
 export PYTHONPATH=$PYTHONPATH:~/Dropbox/lib
 fi
