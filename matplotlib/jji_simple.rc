@@ -239,7 +239,13 @@ axes.formatter.limits : -4, 4 # use scientific notation if log10
                                # http://en.wikipedia.org/wiki/Plus_and_minus_signs#Character_codes
 #axes.color_cycle    : b, r, g, c, m, y, k  # color cycle for plot lines
 # Cynthia Brewer Set 1
-axes.color_cycle : e41a1c, 377eb8, ff7f00, a65628, f781bf, 999999, 984ea3, 4daf4a, 252525
+# axes.color_cycle : e41a1c, 377eb8, ff7f00, a65628, f781bf, 999999, 984ea3, 4daf4a, 252525
+axes.prop_cycle    : cycler('color', ['e41a1c', '377eb8', 'ff7f00', 'a65628', 'f781bf', '999999', '984ea3', '4daf4a', '252525']) 
+                                # color cycle for plot lines
+                                # as list of string colorspecs:
+                                # single letter, long name, or
+                                # web-style hex
+
 # Cynthia Brewer Set 2
 # axes.color_cycle : 66c2a5, fc8d62, 8da0cb, e78ac3, a6d854, ffd92f, e5c494, b3b3b3 
 # Dark Brewer Set 2
@@ -257,8 +263,8 @@ xtick.major.size     : 5      # major tick size in points
 xtick.minor.size     : 3      # minor tick size in points
 xtick.major.width    : 2    # major tick width in points
 xtick.minor.width    : 2    # minor tick width in points
-#xtick.major.pad      : 4      # distance to major tick label in points
-#xtick.minor.pad      : 4      # distance to the minor tick label in points
+xtick.major.pad      : 6      # distance to major tick label in points
+xtick.minor.pad      : 6      # distance to the minor tick label in points
 #xtick.color          : k      # color of the tick labels
 xtick.labelsize      : 18 # fontsize of the tick labels
 #xtick.direction      : in     # direction: in, out, or inout
@@ -267,8 +273,8 @@ ytick.major.size     : 5      # major tick size in points
 ytick.minor.size     : 3      # minor tick size in points
 ytick.major.width    : 2    # major tick width in points
 ytick.minor.width    : 2    # minor tick width in points
-#ytick.major.pad      : 4      # distance to major tick label in points
-#ytick.minor.pad      : 4      # distance to the minor tick label in points
+ytick.major.pad      : 6      # distance to major tick label in points
+ytick.minor.pad      : 6      # distance to the minor tick label in points
 #ytick.color          : k      # color of the tick labels
 ytick.labelsize      : 18 # fontsize of the tick labels
 #ytick.direction      : in     # direction: in, out, or inout

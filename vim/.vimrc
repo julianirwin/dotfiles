@@ -50,6 +50,9 @@ Plugin 'chrisbra/Colorizer'
 Plugin 'fs111/pydoc.vim'
 Plugin 'vim-scripts/pep8'
 
+"elm
+Plugin 'lambdatoast/elm.vim'
+
 "broken
 " Plugin 'ryanb/dotfiles/blob/master/vim/colors/railscasts.vim'
 " Plugin 'wincent/Command-T'
@@ -79,6 +82,8 @@ set smartindent " automatically and intelligently add tabs to next line
 autocmd FileType sh,c,cpp,java,php,javascript setl cindent
 au FileType ruby,html,haml setl shiftwidth=2 tabstop=2
 au FileType python setl shiftwidth=4 tabstop=4
+autocmd FileType python setlocal commentstring=#\ %s
+
 
 """ PANE ELEMENTS """
 set nu		" show line numbers
@@ -114,6 +119,7 @@ inoremap # X#
 map <leader>n :NERDTreeToggle<CR>
 imap <C-a> <Plug>snipMateNextOrTrigger
 smap <C-a> <Plug>snipMateNextOrTrigger
+let g:cpp_class_scope_highlight = 1
 
 """ tabs """
 nnoremap <C-m> gt
