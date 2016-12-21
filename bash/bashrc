@@ -4,6 +4,7 @@
 # custom environment variable
 if [ -d /Users ]; then
 export PYTHONPATH=$PYTHONPATH:/Users/Julian/Documents/Dropbox/lib
+export PATH=$PATH:/usr/local/Cellar/python3/3.5.1/Frameworks/Python.framework/Versions/3.5/bin/
 else
 export PYTHONPATH=$PYTHONPATH:~/Dropbox/lib
 fi
