@@ -114,6 +114,7 @@ cnoremap <C-c><C-d> cd %:p:h
 inoremap <Leader>o <C-x><C-o>
   " Fix the comment goes to first column bug
 inoremap # X#
+nnoremap <C>1  :let _s=@/<Bar>:%s/\s\+$//e<Bar>:let @/=_s<Bar><CR>
 
 """ plugin specific """
 map <leader>n :NERDTreeToggle<CR>
