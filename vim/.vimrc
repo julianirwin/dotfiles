@@ -18,6 +18,7 @@ Plugin 'scrooloose/syntastic'
 Plugin 'mileszs/ack.vim.git'
 Plugin 'godlygeek/tabular'
 Plugin 'plasticboy/vim-markdown'
+Plugin 'tpope/vim-eunuch'
 
 "movement/editing
 Plugin 'bkad/CamelCaseMotion'
